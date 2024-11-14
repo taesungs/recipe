@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Image Banner Section -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/kimchi_jjigae"/>
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김치찌개"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매콤하고 깊은 맛의 김치찌개를 쉽게 만들어보세요."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingBottom="16dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재료"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김치 500g\n돼지고기 200g\n두부 1모\n양파 1개\n대파 1대\n마늘 2쪽\n고춧가루 고운고춧\n된장 1큰술\n소금 약간"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Instructions Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조리 단계"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 김치와 돼지고기를 적당한 크기로 썬다.\n2. 냄비에 김치와 돼지고기를 넣고 볶는다.\n3. 물 4컵을 넣고 끓인다.\n4. 양파, 대파, 마늘을 썰어 넣고 끓인다.\n5. 고춧가루, 된장, 소금을 넣고 간을 맞춘다."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Share Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="레시피 공유하기"
+            android:backgroundTint="#1E88E5"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
